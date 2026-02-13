@@ -1,0 +1,13 @@
+.container{
+    background-color: pink;
+    color: sienna;
+    border-radius: 20px;
+    text-align: center;
+}
+img{
+    width: 300px;
+    border-radius: 20px;
+}
+body{
+    background-image: url(https://i.pinimg.com/736x/02/2b/e5/022be52059521eb3632042ad0546549a.jpg);
+}

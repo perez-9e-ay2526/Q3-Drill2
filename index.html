@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3 Drill 2</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <div class="container mt-5 p-5">
+        
+        <h1>Circle Area Calculator</h1>
+        <br>
+        <img src="https://www.wikihow.com/images/thumb/2/29/Calculate-the-Area-of-a-Circle-Formula-Summary-Diagram.jpg/aid53808-v4-1200px-Calculate-the-Area-of-a-Circle-Formula-Summary-Diagram.jpg">
+        <br><br>
+
+        <form>
+            <label>Radius:</label>
+            <input type="number" id="radNum" class="form-control">
+            <br><br>
+
+            <label>Area:</label>
+            <input type="number" id="areaNum" readonly class="form-control">
+            <br><br>
+
+            <button type="button" class="btn btn-success" onclick="multiplication()">Calculate!</button>
+            <button type="button" class="btn btn-success" onclick="window.location.reload()">Refresh</button>
+        </form>
+        
+        
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
